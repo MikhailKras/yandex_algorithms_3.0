@@ -1,5 +1,5 @@
 import unittest
-from beautiful_string import get_max_goodness as func
+from beautiful_string_two_pointers import get_max_goodness as func
 
 
 class TestGoodness(unittest.TestCase):
@@ -66,10 +66,8 @@ class TestGoodness(unittest.TestCase):
     def test_case_8_from_contest(self):
         with open('test_8_beautiful_string_input', encoding='utf-8') as file:
             my_str = file.read()
-        print(len(my_str))
-        return
-        # k = 1258
-        # self.assertEqual(func(my_str, k), 1350)
+        k = 1258
+        self.assertEqual(func(my_str, k), 1350)
 
 
 if __name__ == '__main__':
