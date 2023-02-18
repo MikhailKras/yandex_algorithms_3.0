@@ -1,0 +1,9 @@
+size
+pop
+front
+pop
+push 123
+pop
+front
+exit
+size
