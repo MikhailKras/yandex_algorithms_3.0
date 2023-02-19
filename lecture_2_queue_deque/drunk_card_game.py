@@ -1,8 +1,11 @@
+from __future__ import annotations
+
+
 class Card:
-    def __init__(self, card_value):
+    def __init__(self, card_value: int):
         self.card_value = card_value
 
-    def __gt__(self, other):
+    def __gt__(self, other: Card) -> bool:
         if self.card_value == 0 and other.card_value == 9:
             return True
         elif self.card_value == 9 and other.card_value == 0:
