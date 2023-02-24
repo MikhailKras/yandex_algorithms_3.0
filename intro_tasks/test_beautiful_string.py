@@ -1,5 +1,5 @@
 import unittest
-from beautiful_string_two_pointers import get_max_goodness as func
+from beautiful_string_last import get_max_prettiness as func
 
 
 class TestGoodness(unittest.TestCase):
