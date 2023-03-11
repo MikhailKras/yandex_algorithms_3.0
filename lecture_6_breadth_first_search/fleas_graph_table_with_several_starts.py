@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def get_sum_length(n, m, s, t, start_coords):
     s -= 1
     t -= 1
@@ -28,7 +29,6 @@ def get_sum_length(n, m, s, t, start_coords):
         return -1
     else:
         return res
-
 
 
 if __name__ == '__main__':
